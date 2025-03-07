@@ -1,14 +1,14 @@
 {
     "builds": [
         {
-            "src": "main.py",
+            "src": "ex7_sphinx_auth/main.py",
             "use": "@vercel/python"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "main.py"
+            "dest": "ex7_sphinx_auth/main.py"
         }
     ]
 }  
